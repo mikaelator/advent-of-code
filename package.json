@@ -5,8 +5,8 @@
   "main": "index.mjs",
   "scripts": {
     "start": "node src/index.mjs",
-    "test:w": "mocha src/*.spec.mjs --parallel --watch --fgrep",
-    "test": "mocha src/*.spec.mjs"
+    "test:w": "mocha src/*/*.spec.mjs --parallel --watch",
+    "test": "mocha src/*/*.spec.mjs"
   },
   "repository": {
     "type": "git",
