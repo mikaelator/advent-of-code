@@ -8,10 +8,10 @@ const day01Data = day01.parseData(readInput('01'));
 console.log(`Day 01, puzzle 1 answer: ${day01.part1(day01Data)}`); // 72070
 console.log(`Day 01, puzzle 2 answer: ${day01.part2(day01Data)}`); // 211805
 
-// import * as day02 from "./02.mjs";
-// const day02Data = day02.parseData(readInput(2));
-// console.log(`Day 02, puzzle 1 answer: ${day02.part1(day02Data)}`); // 
-// console.log(`Day 02, puzzle 2 answer: ${day02.part2(day02Data)}`); // 
+import * as day02 from "./day-02/02.mjs";
+const day02Data = day02.parseData(readInput('02'));
+console.log(`Day 02, puzzle 1 answer: ${day02.part1(day02Data)}`); // 13052
+console.log(`Day 02, puzzle 2 answer: ${day02.part2(day02Data)}`); // 
 
 // import * as day03 from "./03.mjs";
 // const day03Data = day03.parseData(readInput(3));
